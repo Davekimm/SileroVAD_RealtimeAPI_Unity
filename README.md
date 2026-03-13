@@ -1,6 +1,6 @@
 # SileroVAD_RealtimeAPI
 
-This project demonstrates how to use a VAD (Voice Activity Detection) model together with the OpenAI Realtime API.
+This project integrates a VAD (Voice Activity Detection) ONNX model with the OpenAI Realtime API, enabling low-latency and multi-modal conversation.
 
 Test with Unity version 6000.0.67f1 on Mar 13, 2026.
 
