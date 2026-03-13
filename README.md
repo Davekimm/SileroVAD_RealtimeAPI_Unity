@@ -1,11 +1,13 @@
 # SileroVAD_RealtimeAPI
 
 This project demonstrates how to use a VAD (Voice Activity Detection) model together with the OpenAI Realtime API.
+
 Test with Unity version 6000.0.67f1 on Mar 13, 2026.
 
 ## VAD Model
 
 This project uses the sherpa-onnx VAD model(silero_vad.onnx exported by k2-fsa).
+
 The VAD model runs on Sentis.
 
 You can check the model from:  
