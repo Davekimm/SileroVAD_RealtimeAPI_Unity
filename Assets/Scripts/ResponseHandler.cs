@@ -30,11 +30,11 @@ public class ResponseHandler : MonoBehaviour
     {
         if (realtimeHandler == null)
         {
-            realtimeHandler = FindObjectOfType<RealtimeAPIHandler>();
+            realtimeHandler = FindFirstObjectByType<RealtimeAPIHandler>();
         }
         if (audioUtility == null)
         {
-            audioUtility = FindObjectOfType<AudioUtility>(); 
+            audioUtility = FindFirstObjectByType<AudioUtility>();
             if (audioUtility != null)
             {
                 audioUtility.OnPlaybackFinished += HandlePlaybackFinished;
@@ -42,7 +42,7 @@ public class ResponseHandler : MonoBehaviour
         }
         if (sileroVad == null)
         {
-            sileroVad = FindObjectOfType<SileroVadHandler>();
+            sileroVad = FindFirstObjectByType<SileroVadHandler>();
         }
     }
 
