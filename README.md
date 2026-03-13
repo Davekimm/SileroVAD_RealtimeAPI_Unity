@@ -9,11 +9,6 @@ This project uses the sherpa-onnx VAD model(silero_vad.onnx exported by k2-fsa).
 You can check the model from:  
 https://k2-fsa.github.io/sherpa/onnx/vad/silero-vad.html#download-models-files
 
-## Reference
-
-This project was inspired by and references:  
-https://github.com/mapluisch/OpenAI-Realtime-API-for-Unity
-
 ## Setup
 
 1. Import this project into your own Unity project.
@@ -22,3 +17,13 @@ https://github.com/mapluisch/OpenAI-Realtime-API-for-Unity
 4. Run
 
 ## Reminder
+
+
+## Reference
+
+This project was inspired by and references:  
+https://github.com/mapluisch/OpenAI-Realtime-API-for-Unity
+
+
+
+
