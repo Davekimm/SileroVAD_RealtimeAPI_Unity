@@ -14,11 +14,11 @@ using System.Collections.Generic;
 /// </summary>
 public class RealtimeAPIHandler : MonoBehaviour
 {
+    // Use your own API key.
+    public string apiKey = "";
+
     // Change the endpoint if necessary.
     private const string RealtimeEndpoint = "wss://api.openai.com/v1/realtime?model=gpt-realtime";
-
-    // Use your own API key.
-    private string apiKey = "";
 
     public AudioUtility audioUtility;
 
