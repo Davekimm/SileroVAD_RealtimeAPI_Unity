@@ -1,12 +1,12 @@
-# SileroVAD_RealtimeAPI
+# SileroVAD with RealtimeAPI in Unity
 
-This project integrates a VAD (Voice Activity Detection) ONNX model with the OpenAI Realtime API, enabling low-latency and multi-modal conversation.
+This project integrates a VAD (Voice Activity Detection) ONNX model with the OpenAI Realtime API, enabling low-latency and multi-modal conversation with speech detection.
 
 Test with Unity version 6000.0.67f1 on Mar 13, 2026.
 
 ## VAD Model
 
-This project uses the sherpa-onnx VAD model(silero_vad.onnx exported by k2-fsa).
+This project uses the sherpa-onnx Silero VAD model(silero_vad.onnx exported by k2-fsa).
 
 The VAD model runs on Sentis.
 
@@ -21,7 +21,7 @@ https://k2-fsa.github.io/sherpa/onnx/vad/silero-vad.html#download-models-files
 4. Run
 
 ## Reminder
-Running in Windows, but never tested in Mac.
+Running on Windows, but never tested on Mac.
 
 ## Reference
 
