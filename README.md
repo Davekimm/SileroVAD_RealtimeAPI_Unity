@@ -17,7 +17,7 @@ https://k2-fsa.github.io/sherpa/onnx/vad/silero-vad.html#download-models-files
 
 ## Setup
 
-1. Import this project into your own Unity project.
+1. Download a zip or unitypackage and import into a project.
 2. Open the `VAD_RealtimeAPI` scene.
 3. Enter your own API key.
 4. Run
